@@ -59,10 +59,11 @@ const record = [
 ]
 
 function superbowlWin(record){
+    
 let result = record.find(record => record.result === "W")
 return !!result ? result.year : undefined
+
+
+console.log(superbowlWin(record))
+
 }
-
-// console.log(superbowlWin(record))
-
-   
